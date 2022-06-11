@@ -1,0 +1,216 @@
+---
+title: "Case study: Improving Twitter Environment for Xbox"
+output: pdf_document
+---
+
+## Social Media Analytics   
+
+**CORTEZ Mario**\
+**FAN Fangda**\
+**DUTRA Tatiane**\
+**GHOLSYA Aazad**\
+
+## XBOX - A MICROSOFT COMPANY
+
+
+Twenty years ago today, Microsoft released the first "Xbox" in North America, marking its bold entry into the world of console gaming. The box looked like an old VCR, the controller was comically large, and the project was almost cancelled at its birth. Microsoft was good at sales of windows and office software, and the gaming industry had long been dominated by Japanese companies, such as Sony Corp., which owns PlayStation. Twenty years later, video games nowadays account for more than $11 billion a year for Microsoft's revenue, and Xbox has established itself as a premier brand.
+
+Major historical milestones for Xbox:
+
+Xbox Live - In 2002, Early adopters were treated to a multiplayer gaming experience that was entirely new to the console industry, pitting players against competitors from all around the world in a communal environment. Along with being able to connect with friends (and strangers), Xbox Live also made it possible to download new content and take multiplayer interaction to a new level. With over 150,000 subscribers in its first week, Xbox Live was an unmitigated success, and the numbers continued to grow exponentially for Microsoft's online gaming network in the years to follow.
+
+Madden football, Halo2 - 2 very popular and successful games linked to Xbox. The much-anticipated Halo2's $125 million in sales made it the most successful launch of any entertainment product, in game, movie, or music album in consumer history up to that point.
+
+Xbox 360 - On May 12, 2005, Microsoft unveiled the Xbox 360, the next generation of its gaming console. By the end of 2005, more than 1.5 million consoles had shipped, putting the system well on its way to becoming the new master of the "console castle".
+
+Kinect - In June 2009, the motion - and voice - control peripheral that would eventually become Kinect was announced.
+
+Xbox One - In May 2013, Microsoft unveiled the Xbox One to replace Xbox 360, with an improved version of Kinect and unprecedented support for television integration.
+
+Xbox Series X - It is being marketed as the world's most powerful console; with xCloud, players would be able to access a cloud gaming service, referred to as "Netflix for games."
+
+
+
+
+
+
+
+
+## RECENT NEWS
+
+The week of January 17th was a big one for the videogame industry. In a deal that dwarfed all other deals before in the gaming industry, Microsoft surprised the world with the announcement that it will acquire Activision Blizzard for $68.7 billion. 
+
+The scale of the buyout is unseen before: When completed, it will give Microsoft control of some of the biggest game series in the world, including Call of Duty, Warcraft, Overwatch, and a large backlog of older games. In conjunction with Microsoft's purchase of Bethesda Softworks just over a year ago, it will make Microsoft the third-largest game company in the world by revenue.
+
+Microsoft's biggest acquisitions so far:
+
+Activision Blizzard: $68.7 billion
+Linkedin: $26.2 billion
+Nuance: $19.7 billion
+Skype: $8.5 billion
+ZeniMax: $7.5 billion
+GitHub: $7.5 bilion
+Nokia phone unit: $7.2 billion
+aQuantive: $6.3 billion
+Mojang (Minecraft): $2.5 billion
+
+For Microsoft, the historical notion that they are a "old-school" company of the past have forced them to continue innovating to come up with new products, and tailor to their customers' needs. 
+
+Nowadays, companies such as Microsoft are constantly being pushed by competitors in the industry to improve their products and services. Microsoft can no longer afford to ignore customer sentiments, customer demands, because that is the only way to maintain their sustainable customer base. The company is using various methods to actively listen in on consumer opinions, and one of these important channels is Twitter. 
+
+For this project, we are going to investigate the Twitter environment that Xbox has been operating, by inspecting what followers are tweeting about Xbox, how Xbox respond to tweets, and comparing the Twitter engagement and consumer sentiment of Xbox with a competitor, PlayStation. We are also taking into account this recent news of acquisition, and exploring if consumer sentiment was in any way affected by this deals announcement.
+
+Only if Xbox is actively working to keep their customers, would they then be pushed back to the top of the gaming console list.
+
+
+
+
+## PART I: HOW DOES XBOX TWEET AND REACT TO TWEETS? 	
+
+We began our investigation by looking into the official account of Xbox, and exploring what is included in the original tweets by Xbox, the replies fom Xbox to users, and the overall sentiment that Xbox gives from its tweets. In this section, we only focus on the Twitter interaction angle from Xbox to its users, and not vice versa. The content and sentiment analysis of user tweets, including hashtags, followers, etc will be explored later in the report.
+
+There are in total 3 types of action that a Twitter account can do: making original tweets (coined "Original"), replying to other users (coined "Replies"), and sharing a tweet from another user (coined "Retweets"). Below is representation of the percentage of each action by the Xbox account:
+
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/aazad_plot3_typesoftweets.png")
+
+
+After removing the replies and retweets, we are left with the vast majority of original tweets made by Xbox. Below is a bar graph representing the 10 most frequent words made by Xbox:
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/aazad_plot4_most_frequent_words.png")
+
+We then went on to explore the overall sentiment of original tweets by Xbox, using the AFINN library. The average sentiment score of this library range from -5 to 5, with -5 being the most negative score level and 5 being the most positive score level. The analysis for Xbox produced a result of 2.397, which was in line with prediction, as Xbox naturally ought to maintain a significantly positive sentiment from its original tweets. A wordcloud representation of original tweets by Xbox indeed shows an abundance of positive adjectives, such as nice, cool, glad, love, and amazing.
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/fonda_plot1_xbox_own_wordcloud.png")
+
+## PART II: WHO ARE THE FOLLOWERS AND WHAT DO THEY TWEET ABOUT?
+
+After investigating the original tweets from Xbox, we shifted the focus to the followers of Xbox. In this section, we are going to analyze the profiles of Xbox followers, and inspect their subscriptions and interests by analyzing their tweets information.
+
+Below is a bar graph showing the main location of followers. Since users can freely input any text as their location, there are certain duplicate information in the graph, but nevertheless we can see a strong North American presence, which is in line with the primary target audience of Xbox. For 20 years since the incubation of this gaming company, success and penetration of overseas market has been difficult, especially in Japan. After its main success in the U.S., Xbox was slowly introduced to households in Europe, but never reaching the same popularity as it has in the states. In Japan, where the titans of gaming industry such as Nintendo, PlayStation have been dominating gamers over decades, Xbox has been struggling to gain a strong foothold until today.
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/aazad_plot1.png")
+
+Then an analysis was carried out regarding the application in the hands of users to post these tweets. From our database, we can see a larger presence of iPhone users compared to Android. 
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/aazad_plot2_source.png")
+
+Now we dive into the profile of the followers, and below is a word cloud representing the most frequent words describing the Xbox followers. It is pretty clear that the followers engage regularly with gaming environments, as the word "game" appears with a high frequency. Other words such as fun, life and family were also utilized frequently for user profile descriptions. 
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/tatimarioaazad/changes/followers_profile_description.png")
+
+On average, each follower's of Xbox has 11 followers themselves, with the most popular user (base in Dubai) having 7295 followers. On average, each follower in turn follow 71 other users on Twitter. A follower has tweeted less than 1 tweet on average in the last 2 months, and out of all of the 5000 followers gathered, there is no "verified user" classified by Twitter. Below are 2 word clouds of the followers' last tweets, and last retweets.
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/tati_plot6_follower_last_tweet.png")
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/tati_plot7_follower_last_retweet.png")
+
+The last tweet word cloud reveals that XboxSupport has to be one of the main reasons for a follower to reach out to Xbox on Twitter. The retweet word cloud demonstrates a few popular games on Xbox, such as Call of Duty, Halo, NFT, NBA All Star, and Demon Slayer. Since these are users' last recent tweets, we can see how engaged these users were with different Xbox games.  However, 69% of the followers never tweeted in their profiles, and only few of them have retweeted contents.
+
+Furthermore, users of Twitter can classify their subscriptions into "lists", and thus investigating more about the lists where Xbox is a member could give possible insightful information. We generated 2 word clouds for the names and descriptions of such "lists":
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/tatimarioaazad/changes/xbox_lists_names.png")
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/tatimarioaazad/changes/xbox_lists_description.png")
+
+There are 380 lists that Xbox is a member of, and most of them have "game" and "Xbox" as keywords, and the word "news" could be related to the frequent release of new games by Microsoft and other players in the market. From the list descriptions, we can see that popular games such as Halo, and competitors such as PS5 are also frequent elements. Even though Xbox is member of a large number of lists, these lists have very few subscriptions, with on average 2 subscribers per list.
+
+It was possible to gather the collection of last tweets liked by followers, and out of the many game related texts shown in the word cloud below, we noticed 3 interesting words: giveaway, reminder, free. This aspect of information should be closely inspected further by Xbox's marketing campaign, and analyze what type of promotions entice followers the most.
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/tatimarioaazad/changes/followers_liked_tweets.png")
+
+
+
+
+## PART III: WHAT ARE PEOPLE TWEETING ABOUT THE COMPANY - XBOX vs. PLAYSTATION
+
+PlayStation has been the leader since the last generation of consoles, but has recent news on the acquisition by Microsoft (Xbox) of the game developer Blizzard Activision for $69B turned the tables for both companies? Has consumer sentiment been any different after the news announcement?
+
+For Xbox and PlayStation, both companies have important base followers, and they share approximability the same amount of retweets and likes, with the majority of their tweets originally composed. Here we introduce the concept of WOM, "word of mouth": positive online WOM for both studied brands is vital as they rely on selling physical and digital products, and "there is a significant increase in the number of products sold following the addition of online WOM" (Thirteenth Americas Conference on Information Systems, Keystone, Colorado,  2007, Davis and Khazanchi, University of Nebraska at Omaha).
+
+We generated 2 plots comparing tweets interactions with Xbox and PlayStation by the hour.
+
+Xbox plot:
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture1.png")
+
+PlayStation plot:
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture2.png")
+
+The number of tweets is larger for #Xbox than #Playstation per hour, but that might be biased because of the sample we could get.
+
+Sample size:
+
+"#Xbox" 14.000 Tweets
+"#Playstation" 7.000 Tweets
+
+Timeframe: 1 week before January 29
+
+The overall shape shares similarities - When Twitter users wake up there's a peak of tweets at 8am and then again a peak from 15 h until 21 h.
+
+We then inspected the popular hashtags by Xbox and PlayStation:
+
+Xbox:
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture3.png")
+
+PlayStation:
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture4.png")
+
+Hashtags of consoles and brands from competitors are present for both companies, as well as hashtags referring to company's own products, such as Xbox One, PS4, and PS5.
+
+We then compared retweets from different users that became trending for Xbox and PlayStation:
+
+Xbox:
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture5.png")
+
+PlayStation:
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture6.png")
+
+From the comparison, it appears that the tweets #Xbox has more retweets from popular trending users. 
+Finally we compared sentiment analysis between #Xbox and #PlayStation:
+
+Xbox:
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture7.png")
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture9.png")
+
+PlayStation:
+
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture8.png")
+![]("C:/Users/ffan1/OneDrive - IESEG (1)/Social Media Analytics/Group Project/plots/tati/Picture10.png")
+
+Overall mean sentiment for the #Xbox tweets analyzed is 2.05, and the mean sentiment for #PlayStation tweets is 2.23. From the results gathered from AFINN library, PlayStation has a better note in sentiment even though Xbox just acquired a big gaming publishing company that should put them on the lead. Upon further investigation of the bar charts, after we classify the 10 sentiments represented, PlayStation users share less amount of negative sentiments, while Xbox and PlayStation users have a similar amount of positive sentiments.
+
+## RECOMMENDATIONS
+
+Even if both Xbox and PlayStation have a strong twitter fan base, similar number of followers, likes, and retweets, PlayStation is the leader in terms of having less negative consumer sentiment scores. Xbox ought to implement market research to find out more about the reasons behind the dissatisfaction, and shift the focus of the firm towards a more customer-centric model. Users contributing to these negative sentiments are likely "detractors" from a marketing perspective, versus a "promoter" otherwise. For Xbox, the number of "detractors" is high, and it is essential for the company to expand the analysis, and come up with a suitable strategy for these detractors. It is fashionable to suggest an exit for detractors to competitors, however, other than for the most seriously toxic detractors, this would be a mistake. Detractors can give Xbox insights on gaps in the service delivery that ought to be fixed, and they represent a large income opportunity if their problems can be addressed. There might be valuable information to be found by analyzing the support community (@XboxSupport), as we have seen that this channel is a main reason for users to interact with Xbox.
+
+According to the analysis on Xbox followers, we can see that Xbox engages actively with the gaming world, it would then be a good strategy if Xbox could utilize the consumer hashtags and mentions gathered, and create some marketing actions or challenges related to games, for example hosting regular competition between users. We have seen that Xbox followers engage poorly with quotes or retweets compared to original tweets, it then might be a good idea for Xbox to focus more on content creation.
+
+Throughout the analysis, there were a few challenges that given time and resources could be improved in the future.
+
+One of the biggest challenges was to get a reasonable amount of sample data in order to represent the entire population well. Xbox has more than 15 million of followers, while the API allows us to extract information only from 5000 followers, which represents only 0.03% of the population. Besides that, the criteria used by the API to select the followers is not known. For future projects, it would be really useful to acquire paid API in order to have less limitations and enough data to better represent the population of company followers.
+
+Furthermore, as stated by Federico Pozzi from SAS Italy: "Emoticons are considered to be handy and reliable indicators of sentiment". We tried analyzing emojis and encountered difficulties, by using libraries such as Unicode, emoji, and several other approaches. Determining how emoji sentiments should be weighted is complex, there are several research in this matter but each one has their own range and translation. 
+
+## SOURCES
+
+https://www.pcgamer.com/heres-everything-thats-happened-since-microsoft-acquired-activision-blizzard/#:~:text=Last%20week%20was%20a%20big,for%20a%20whopping%20%2468.7%20billion.
+
+https://www.digitaltrends.com/gaming/the-history-of-the-xbox/
+
+https://blogs.sas.com/content/hiddeninsights/2018/07/16/role-emojis-sentiment-analysis/#:~:text=Not%20only%20texts%20but%20also%20emoticons%2C%20which%20represent,increase%20and%20improve%20with%20the%20analysis%20of%20emojis
+
+towardsdatascience.com
+
+
+
+
+
+
+
